@@ -70,9 +70,9 @@ export default function PaginaInicial() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: appConfig.theme.colors.primary[500],
+          backgroundColor: appConfig.theme.colors.primary[600],
           backgroundImage:
-            'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+            'url(https://virtualbackgrounds.site/wp-content/uploads/2020/09/monsters-inc-doors-at-scare-floor-f.jpeg)',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundBlendMode: 'multiply',
@@ -93,7 +93,7 @@ export default function PaginaInicial() {
             padding: '32px',
             margin: '16px',
             boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-            backgroundColor: appConfig.theme.colors.neutrals[700],
+            backgroundColor: appConfig.theme.colors.primary[600],
           }}
         >
           {/* Formulário */}
@@ -114,7 +114,7 @@ export default function PaginaInicial() {
               variant="body3"
               styleSheet={{
                 marginBottom: '32px',
-                color: appConfig.theme.colors.neutrals[300],
+                color: appConfig.theme.colors.primary[300],
               }}
             >
               {appConfig.name}
@@ -127,7 +127,7 @@ export default function PaginaInicial() {
                   textColor: appConfig.theme.colors.neutrals[200],
                   mainColor: appConfig.theme.colors.neutrals[900],
                   mainColorHighlight: appConfig.theme.colors.primary[500],
-                  backgroundColor: appConfig.theme.colors.neutrals[800],
+                  backgroundColor: appConfig.theme.colors.primary[600],
                 },
               }}
             />
@@ -153,8 +153,8 @@ export default function PaginaInicial() {
               alignItems: 'center',
               maxWidth: '200px',
               padding: '16px',
-              backgroundColor: appConfig.theme.colors.neutrals[800],
-              border: '1px solid',
+              backgroundColor: appConfig.theme.colors.primary[200],
+              border: '0px solid',
               borderColor: appConfig.theme.colors.neutrals[999],
               borderRadius: '10px',
               flex: 1,
@@ -172,7 +172,7 @@ export default function PaginaInicial() {
               variant="body4"
               styleSheet={{
                 color: appConfig.theme.colors.neutrals[200],
-                backgroundColor: appConfig.theme.colors.neutrals[900],
+                backgroundColor: appConfig.theme.colors.primary[100],
                 padding: '3px 10px',
                 borderRadius: '1000px',
               }}
